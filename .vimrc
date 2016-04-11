@@ -41,7 +41,7 @@ Plugin 'godlygeek/tabular'
 " let g:vim_markdown_folding_disabled=1
 
 Plugin 'Valloric/YouCompleteMe'
-noremap <leader>jd :YcmCompleter GoToDeclaration<CR>
+
 Plugin 'jiangmiao/auto-pairs'
 
 " quick google search
@@ -159,12 +159,12 @@ syntax on
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
-set tabstop=4
+set tabstop=2
 set expandtab
 " Show “invisible” characters
 " set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-"set lcs=tab:▸\ ,trail:·
-"set list
+set lcs=tab:▸\ ,trail:·
+set list
 " Highlight searches
 set hlsearch
 " Ignore case of searches
@@ -174,7 +174,7 @@ set incsearch
 " Always show status line
 set laststatus=2
 " Enable mouse in all modes
-set mouse=v
+set mouse=a
 " Disable error bells
 set noerrorbells
 " Don’t reset cursor to start of line when moving around.
